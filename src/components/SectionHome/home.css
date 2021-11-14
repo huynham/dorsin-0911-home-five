@@ -1,0 +1,107 @@
+
+
+#home {
+    width: 100%;
+    height:922px;
+     
+    background-image: url("../../../src/image/bg-home.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+.home-sub {
+    background: linear-gradient(to right, #512da8, #711e72);
+    opacity: 0.9;
+    position: absolute;
+    height: 922px;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+  
+
+    
+}
+.home-sub-one {
+    width:60%;
+    height: 100%;
+    margin:auto; 
+    text-align: center;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.home-content-1 {
+    width:60%; 
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+   
+}
+.home-content-1 h1 {
+    font-size: 46px;
+    color:white;
+    margin: 0 !important;
+
+}
+.home-content-1 p {
+    color:rgba(255, 255, 255, 0.7);
+    margin-bottom: 50px;
+}
+
+.home-content-2 {
+    width: 60%;
+    height:320px;
+    
+}
+.home-content-2-sub {
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+    
+    position: relative;
+    
+}
+.home-content-2-sub iframe {
+    width: 685px;
+    height: 321px;
+}
+/* reponsive */
+
+@media screen and (min-width:320px) and (max-width:1023px) {
+
+    #home h1{font-size: 32px;}
+    .home-content {width: 100%;}
+    .home-sub-one {
+        width: 100%;
+    }
+    .home-content-1 {
+        width: 100%;
+    }
+    .home-content-2 {
+        width: 100%;
+    
+    }
+    .home-content-2-sub iframe {
+        width: 100%;
+        height: 321px;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1900px) {
+   
+    #home h1{font-size: 40px;}
+    .home-sub-one {width: 90%;}
+    
+}
